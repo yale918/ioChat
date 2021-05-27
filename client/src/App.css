@@ -1,0 +1,47 @@
+.App{
+  margin: 0 auto;
+  display:flex;
+  flex-direction:column;
+  width:250px;
+  height:400px;
+  background-color: rgb(142, 209, 214);
+  border-radius: 1.5rem;
+}
+.board-top{
+  margin: 0px auto;
+  width:250px;
+  height:350px;
+  background-color:gray;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.board-bottom{
+  margin: 0px auto;
+  width:250px;
+  height:50px;
+  background-color:dodgerblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#navbar{
+  display:flex;
+  flex-direction:row;     
+}
+#navbar > div{
+  margin:5px;
+            background-color:#fff;
+            height:40px;
+            width:40px;
+            text-align: center;
+            line-height: 40px;
+            cursor:pointer;
+            font-size:13px;
+            border-radius: 0.5rem;
+}
+
